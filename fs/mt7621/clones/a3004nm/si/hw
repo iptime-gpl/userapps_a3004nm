@@ -7,9 +7,15 @@ chipset.eswitch.max_speed=1000
 chipset.eswitch.port_stat_mask=0x80003e6f
 chipset.wl2g.type=11n
 chipset.wl2g.name=mt7615
+chipset.wl2g.tpc_enable=1
+chipset.wl2g.tpc_duty=100-60-30-10
+chipset.wl2g.tpc=h_en-1_h_th-120_l_en-1_l_th-114_REC_T-60_RFOFF_en-1_RFOFF_th-124_Type-1
 chipset.wl2g.num_of_streams=2
 chipset.wl5g.type=11ac
 chipset.wl5g.name=mt7615
+chipset.wl5g.tpc_enable=1
+chipset.wl5g.tpc_duty=100-60-30-10
+chipset.wl5g.tpc=h_en-1_h_th-120_l_en-1_l_th-114_REC_T-60_RFOFF_en-1_RFOFF_th-124_Type-1
 chipset.wl5g.num_of_streams=2
 
 board.name=IP04316B
